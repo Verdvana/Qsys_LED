@@ -1,0 +1,289 @@
+Info: Starting: Create testbench Qsys system
+Info: E:/DE1-SoC/Qsys_LED/Qsys_LED/testbench/Qsys_LED.ipx
+Info: qsys-generate E:\DE1-SoC\Qsys_LED\Qsys_LED.qsys --testbench=STANDARD --output-directory=E:\DE1-SoC\Qsys_LED --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading Qsys_LED/Qsys_LED.qsys
+Progress: Reading input file
+Progress: Adding JTAG [altera_avalon_jtag_uart 17.0]
+Progress: Parameterizing module JTAG
+Progress: Adding LED [altera_avalon_pio 17.0]
+Progress: Parameterizing module LED
+Progress: Adding RAM [altera_avalon_onchip_memory2 17.0]
+Progress: Parameterizing module RAM
+Progress: Adding ROM [altera_avalon_onchip_memory2 17.0]
+Progress: Parameterizing module ROM
+Progress: Adding SystemID [altera_avalon_sysid_qsys 17.0]
+Progress: Parameterizing module SystemID
+Progress: Adding clk [clock_source 17.0]
+Progress: Parameterizing module clk
+Progress: Adding key [altera_avalon_pio 17.0]
+Progress: Parameterizing module key
+Progress: Adding nios2 [altera_nios2_gen2 17.0]
+Progress: Parameterizing module nios2
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: Qsys_LED.JTAG: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: Qsys_LED.SystemID: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: Qsys_LED.SystemID: Time stamp will be automatically updated when this component is generated.
+Info: Qsys_LED.key: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: qsys-generate succeeded.
+Info: Loading IP catalog for testbench.
+Progress: 
+Progress: 
+Progress: 
+Progress: (2) searching D:/intelfpga/17.0/quartus/sopc_builder/bin/root_components.ipx (ipx file)
+Info: Reading index D:\intelfpga\17.0\quartus\sopc_builder\bin\root_components.ipx
+Info: D:\intelfpga\17.0\quartus\sopc_builder\bin\root_components.ipx: Loading now from components.ipx
+Info: Reading index D:\intelfpga\17.0\quartus\sopc_builder\bin\ip_component_categories.ipx
+Info: D:\intelfpga\17.0\quartus\sopc_builder\bin\ip_component_categories.ipx described 0 plugins, 0 paths, in 0.00 seconds
+Info: D:/intelfpga/17.0/quartus/sopc_builder/bin/ip_component_categories.ipx matched 1 files in 0.00 seconds
+Info: E:/DE1-SoC/Qsys_LED/Qsys_LED/testbench/ip/**/* matched 0 files in 0.00 seconds
+Info: Reading index E:\DE1-SoC\Qsys_LED\Qsys_LED\testbench\Qsys_LED.ipx
+Progress: Loading Qsys_LED/Qsys_LED.qsys
+Info: E:/DE1-SoC/Qsys_LED/* matched 12 files in 0.00 seconds
+Info: E:/DE1-SoC/Qsys_LED/ip/**/* matched 0 files in 0.00 seconds
+Info: E:/DE1-SoC/Qsys_LED/*/* matched 426 files in 0.01 seconds
+Info: E:\DE1-SoC\Qsys_LED\Qsys_LED\testbench\Qsys_LED.ipx described 0 plugins, 3 paths, in 0.02 seconds
+Info: E:/DE1-SoC/Qsys_LED/Qsys_LED/testbench/* matched 4 files in 0.02 seconds
+Info: E:/DE1-SoC/Qsys_LED/Qsys_LED/testbench/*/* matched 0 files in 0.00 seconds
+Info: C:/Users/Verdvana/.altera.quartus/ip/17.0/**/* matched 0 files in 0.00 seconds
+Info: D:/intelfpga/17.0/quartus/sopc_builder/bin/$$QUARTUS_IP_PROJECTDIR/* matched 0 files in 0.00 seconds
+Info: D:/intelfpga/17.0/quartus/sopc_builder/bin/$$QUARTUS_IP_USERDIR/* matched 0 files in 0.00 seconds
+Info: D:/intelfpga/17.0/quartus/sopc_builder/bin/$$QUARTUS_IP_GLOBALDIR/* matched 0 files in 0.00 seconds
+Info: Reading index D:\intelfpga\17.0\ip\altera\altera_components.ipx
+Info: D:\intelfpga\17.0\ip\altera\altera_components.ipx described 1996 plugins, 0 paths, in 0.16 seconds
+Info: D:/intelfpga/17.0/ip/**/* matched 138 files in 0.16 seconds
+Info: D:/intelfpga/ip/**/* matched 0 files in 0.00 seconds
+Info: Reading index D:\intelfpga\17.0\quartus\sopc_builder\builtin.ipx
+Info: D:\intelfpga\17.0\quartus\sopc_builder\builtin.ipx described 83 plugins, 0 paths, in 0.01 seconds
+Info: D:/intelfpga/17.0/quartus/sopc_builder/**/* matched 8 files in 0.01 seconds
+Info: Reading index D:\intelfpga\17.0\quartus\common\librarian\factories\index.ipx
+Info: D:\intelfpga\17.0\quartus\common\librarian\factories\index.ipx described 151 plugins, 0 paths, in 0.01 seconds
+Info: D:/intelfpga/17.0/quartus/common/librarian/factories/**/* matched 4 files in 0.01 seconds
+Info: D:/intelfpga/17.0/quartus/sopc_builder/bin/$IP_IPX_PATH matched 1 files in 0.00 seconds
+Info: D:\intelfpga\17.0\quartus\sopc_builder\bin\root_components.ipx described 0 plugins, 13 paths, in 0.21 seconds
+Info: D:/intelfpga/17.0/quartus/sopc_builder/bin/root_components.ipx matched 1 files in 0.21 seconds
+Progress: 
+Progress: 
+Progress: 
+Info: Running script D:/intelfpga/17.0/quartus/sopc_builder/bin/tbgen.tcl
+Info: send_message Info TB_Gen: QSYS Testbench Generator Rev: $Revision: #1 $
+Info: TB_Gen: QSYS Testbench Generator Rev: $Revision: #1 $
+Info: get_module_property NAME
+Info: send_message Info TB_Gen: System design is: Qsys_LED
+Info: TB_Gen: System design is: Qsys_LED
+Info: get_interfaces 
+Info: get_connections 
+Info: get_interface_property clk EXPORT_OF
+Info: get_instance_property clk CLASS_NAME
+Info: get_instance_assignment clk testbench.partner.map.clk_in
+Info: get_interface_property key_external_connection EXPORT_OF
+Info: get_instance_property key CLASS_NAME
+Info: get_instance_assignment key testbench.partner.map.external_connection
+Info: get_interface_property led_external_connection EXPORT_OF
+Info: get_instance_property LED CLASS_NAME
+Info: get_instance_assignment LED testbench.partner.map.external_connection
+Info: get_interface_property reset EXPORT_OF
+Info: get_instance_property clk CLASS_NAME
+Info: get_instance_assignment clk testbench.partner.map.clk_in_reset
+Info: send_message Info TB_Gen: Creating testbench system : Qsys_LED_tb with all standard BFMs
+Info: TB_Gen: Creating testbench system : Qsys_LED_tb with all standard BFMs
+Info: create_system Qsys_LED_tb
+Info: add_instance Qsys_LED_inst Qsys_LED 
+Info: set_use_testbench_naming_pattern true Qsys_LED
+Info: get_instance_interfaces Qsys_LED_inst
+Info: get_instance_interface_property Qsys_LED_inst clk CLASS_NAME
+Info: get_instance_interface_property Qsys_LED_inst key_external_connection CLASS_NAME
+Info: get_instance_interface_property Qsys_LED_inst led_external_connection CLASS_NAME
+Info: get_instance_interface_property Qsys_LED_inst reset CLASS_NAME
+Info: get_instance_interface_property Qsys_LED_inst clk CLASS_NAME
+Info: send_message Info TB_Gen: clock_sink found: clk
+Info: TB_Gen: clock_sink found: clk
+Info: get_instance_interface_property Qsys_LED_inst clk CLASS_NAME
+Info: add_instance Qsys_LED_inst_clk_bfm altera_avalon_clock_source 
+Info: get_instance_property Qsys_LED_inst_clk_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value Qsys_LED_inst clk clockRate
+Info: set_instance_parameter_value Qsys_LED_inst_clk_bfm CLOCK_RATE 100000000.0
+Info: set_instance_parameter_value Qsys_LED_inst_clk_bfm CLOCK_UNIT 1
+Info: get_instance_property Qsys_LED_inst_clk_bfm CLASS_NAME
+Info: get_instance_interface_property Qsys_LED_inst clk CLASS_NAME
+Info: get_instance_interfaces Qsys_LED_inst_clk_bfm
+Info: get_instance_interface_property Qsys_LED_inst_clk_bfm clk CLASS_NAME
+Info: add_connection Qsys_LED_inst_clk_bfm.clk Qsys_LED_inst.clk
+Info: get_instance_interface_property Qsys_LED_inst reset CLASS_NAME
+Info: send_message Info TB_Gen: reset_sink found: reset
+Info: TB_Gen: reset_sink found: reset
+Info: get_instance_interface_property Qsys_LED_inst reset CLASS_NAME
+Info: add_instance Qsys_LED_inst_reset_bfm altera_avalon_reset_source 
+Info: get_instance_property Qsys_LED_inst_reset_bfm CLASS_NAME
+Info: get_instance_interface_ports Qsys_LED_inst reset
+Info: get_instance_interface_port_property Qsys_LED_inst reset reset_reset_n ROLE
+Info: get_instance_interface_port_property Qsys_LED_inst reset reset_reset_n ROLE
+Info: set_instance_parameter_value Qsys_LED_inst_reset_bfm ASSERT_HIGH_RESET 0
+Info: set_instance_parameter_value Qsys_LED_inst_reset_bfm INITIAL_RESET_CYCLES 50
+Info: get_instance_property Qsys_LED_inst_reset_bfm CLASS_NAME
+Info: get_instance_interfaces Qsys_LED_inst_reset_bfm
+Info: get_instance_interface_property Qsys_LED_inst_reset_bfm clk CLASS_NAME
+Info: get_instance_interface_property Qsys_LED_inst_reset_bfm reset CLASS_NAME
+Info: get_instance_property Qsys_LED_inst_reset_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value Qsys_LED_inst reset associatedClock
+Info: get_instance_interfaces Qsys_LED_inst_clk_bfm
+Info: get_instance_interface_property Qsys_LED_inst_clk_bfm clk CLASS_NAME
+Info: send_message Warning TB_Gen: Qsys_LED_inst_reset_bfm is not associated to any clock; connecting Qsys_LED_inst_reset_bfm to 'Qsys_LED_inst_clk_bfm.clk'
+Warning: TB_Gen: Qsys_LED_inst_reset_bfm is not associated to any clock; connecting Qsys_LED_inst_reset_bfm to 'Qsys_LED_inst_clk_bfm.clk'
+Info: add_connection Qsys_LED_inst_clk_bfm.clk Qsys_LED_inst_reset_bfm.clk
+Info: get_instance_interface_property Qsys_LED_inst reset CLASS_NAME
+Info: get_instance_interfaces Qsys_LED_inst_reset_bfm
+Info: get_instance_interface_property Qsys_LED_inst_reset_bfm clk CLASS_NAME
+Info: get_instance_interface_property Qsys_LED_inst_reset_bfm reset CLASS_NAME
+Info: add_connection Qsys_LED_inst_reset_bfm.reset Qsys_LED_inst.reset
+Info: get_instance_interface_property Qsys_LED_inst key_external_connection CLASS_NAME
+Info: send_message Info TB_Gen: conduit_end found: key_external_connection
+Info: TB_Gen: conduit_end found: key_external_connection
+Info: get_instance_interface_property Qsys_LED_inst key_external_connection CLASS_NAME
+Info: add_instance Qsys_LED_inst_key_external_connection_bfm altera_conduit_bfm 
+Info: get_instance_property Qsys_LED_inst_key_external_connection_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value Qsys_LED_inst key_external_connection associatedClock
+Info: get_instance_interface_parameter_value Qsys_LED_inst key_external_connection associatedReset
+Info: get_instance_interface_ports Qsys_LED_inst key_external_connection
+Info: get_instance_interface_port_property Qsys_LED_inst key_external_connection key_external_connection_export ROLE
+Info: get_instance_interface_port_property Qsys_LED_inst key_external_connection key_external_connection_export WIDTH
+Info: get_instance_interface_port_property Qsys_LED_inst key_external_connection key_external_connection_export DIRECTION
+Info: set_instance_parameter_value Qsys_LED_inst_key_external_connection_bfm CLOCKED_SIGNAL 0
+Info: set_instance_parameter_value Qsys_LED_inst_key_external_connection_bfm ENABLE_RESET 0
+Info: set_instance_parameter_value Qsys_LED_inst_key_external_connection_bfm SIGNAL_ROLES export
+Info: set_instance_parameter_value Qsys_LED_inst_key_external_connection_bfm SIGNAL_WIDTHS 1
+Info: set_instance_parameter_value Qsys_LED_inst_key_external_connection_bfm SIGNAL_DIRECTIONS output
+Info: get_instance_property Qsys_LED_inst_key_external_connection_bfm CLASS_NAME
+Info: get_instance_interface_property Qsys_LED_inst key_external_connection CLASS_NAME
+Info: get_instance_interfaces Qsys_LED_inst_key_external_connection_bfm
+Info: get_instance_interface_property Qsys_LED_inst_key_external_connection_bfm conduit CLASS_NAME
+Info: add_connection Qsys_LED_inst_key_external_connection_bfm.conduit Qsys_LED_inst.key_external_connection
+Info: get_instance_interface_property Qsys_LED_inst led_external_connection CLASS_NAME
+Info: send_message Info TB_Gen: conduit_end found: led_external_connection
+Info: TB_Gen: conduit_end found: led_external_connection
+Info: get_instance_interface_property Qsys_LED_inst led_external_connection CLASS_NAME
+Info: add_instance Qsys_LED_inst_led_external_connection_bfm altera_conduit_bfm 
+Info: get_instance_property Qsys_LED_inst_led_external_connection_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value Qsys_LED_inst led_external_connection associatedClock
+Info: get_instance_interface_parameter_value Qsys_LED_inst led_external_connection associatedReset
+Info: get_instance_interface_ports Qsys_LED_inst led_external_connection
+Info: get_instance_interface_port_property Qsys_LED_inst led_external_connection led_external_connection_export ROLE
+Info: get_instance_interface_port_property Qsys_LED_inst led_external_connection led_external_connection_export WIDTH
+Info: get_instance_interface_port_property Qsys_LED_inst led_external_connection led_external_connection_export DIRECTION
+Info: set_instance_parameter_value Qsys_LED_inst_led_external_connection_bfm CLOCKED_SIGNAL 0
+Info: set_instance_parameter_value Qsys_LED_inst_led_external_connection_bfm ENABLE_RESET 0
+Info: set_instance_parameter_value Qsys_LED_inst_led_external_connection_bfm SIGNAL_ROLES export
+Info: set_instance_parameter_value Qsys_LED_inst_led_external_connection_bfm SIGNAL_WIDTHS 10
+Info: set_instance_parameter_value Qsys_LED_inst_led_external_connection_bfm SIGNAL_DIRECTIONS input
+Info: get_instance_property Qsys_LED_inst_led_external_connection_bfm CLASS_NAME
+Info: get_instance_interface_property Qsys_LED_inst led_external_connection CLASS_NAME
+Info: get_instance_interfaces Qsys_LED_inst_led_external_connection_bfm
+Info: get_instance_interface_property Qsys_LED_inst_led_external_connection_bfm conduit CLASS_NAME
+Info: add_connection Qsys_LED_inst_led_external_connection_bfm.conduit Qsys_LED_inst.led_external_connection
+Info: send_message Info TB_Gen: Saving testbench system: Qsys_LED_tb.qsys
+Info: TB_Gen: Saving testbench system: Qsys_LED_tb.qsys
+Info: save_system Qsys_LED_tb.qsys
+Info: send_message Info TB_Gen: TBGEN SUCCESSFUL
+Info: TB_Gen: TBGEN SUCCESSFUL
+Info: Testbench system: E:/DE1-SoC/Qsys_LED/Qsys_LED/testbench/Qsys_LED_tb.qsys
+Info: Done
+Info: qsys-generate E:\DE1-SoC\Qsys_LED\Qsys_LED.qsys --simulation=VERILOG --allow-mixed-language-simulation --testbench=STANDARD --testbench-simulation=VERILOG --allow-mixed-language-testbench-simulation --output-directory=E:\DE1-SoC\Qsys_LED\Qsys_LED\testbench\Qsys_LED_tb\simulation --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading testbench/Qsys_LED_tb.qsys
+Progress: Reading input file
+Progress: Adding Qsys_LED_inst [Qsys_LED 1.0]
+Progress: Parameterizing module Qsys_LED_inst
+Progress: Adding Qsys_LED_inst_clk_bfm [altera_avalon_clock_source 17.0]
+Progress: Parameterizing module Qsys_LED_inst_clk_bfm
+Progress: Adding Qsys_LED_inst_key_external_connection_bfm [altera_conduit_bfm 17.0]
+Progress: Parameterizing module Qsys_LED_inst_key_external_connection_bfm
+Progress: Adding Qsys_LED_inst_led_external_connection_bfm [altera_conduit_bfm 17.0]
+Progress: Parameterizing module Qsys_LED_inst_led_external_connection_bfm
+Progress: Adding Qsys_LED_inst_reset_bfm [altera_avalon_reset_source 17.0]
+Progress: Parameterizing module Qsys_LED_inst_reset_bfm
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: Qsys_LED_tb.Qsys_LED_inst.JTAG: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: Qsys_LED_tb.Qsys_LED_inst.SystemID: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: Qsys_LED_tb.Qsys_LED_inst.SystemID: Time stamp will be automatically updated when this component is generated.
+Info: Qsys_LED_tb.Qsys_LED_inst.key: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: Qsys_LED_tb.Qsys_LED_inst_clk_bfm: Elaborate: altera_clock_source
+Info: Qsys_LED_tb.Qsys_LED_inst_clk_bfm:            $Revision: #1 $
+Info: Qsys_LED_tb.Qsys_LED_inst_clk_bfm:            $Date: 2017/01/22 $
+Info: Qsys_LED_tb.Qsys_LED_inst_reset_bfm: Elaborate: altera_reset_source
+Info: Qsys_LED_tb.Qsys_LED_inst_reset_bfm:            $Revision: #1 $
+Info: Qsys_LED_tb.Qsys_LED_inst_reset_bfm:            $Date: 2017/01/22 $
+Info: Qsys_LED_tb.Qsys_LED_inst_reset_bfm: Reset is negatively asserted.
+Info: Qsys_LED_tb: Generating Qsys_LED_tb "Qsys_LED_tb" for SIM_VERILOG
+Info: Qsys_LED_inst: "Qsys_LED_tb" instantiated Qsys_LED "Qsys_LED_inst"
+Info: Qsys_LED_inst_clk_bfm: "Qsys_LED_tb" instantiated altera_avalon_clock_source "Qsys_LED_inst_clk_bfm"
+Info: Qsys_LED_inst_key_external_connection_bfm: "Qsys_LED_tb" instantiated altera_conduit_bfm "Qsys_LED_inst_key_external_connection_bfm"
+Info: Reusing file E:/DE1-SoC/Qsys_LED/Qsys_LED/testbench/Qsys_LED_tb/simulation/submodules/verbosity_pkg.sv
+Info: Qsys_LED_inst_led_external_connection_bfm: "Qsys_LED_tb" instantiated altera_conduit_bfm "Qsys_LED_inst_led_external_connection_bfm"
+Info: Reusing file E:/DE1-SoC/Qsys_LED/Qsys_LED/testbench/Qsys_LED_tb/simulation/submodules/verbosity_pkg.sv
+Info: Qsys_LED_inst_reset_bfm: "Qsys_LED_tb" instantiated altera_avalon_reset_source "Qsys_LED_inst_reset_bfm"
+Info: Reusing file E:/DE1-SoC/Qsys_LED/Qsys_LED/testbench/Qsys_LED_tb/simulation/submodules/verbosity_pkg.sv
+Info: JTAG: Starting RTL generation for module 'Qsys_LED_JTAG'
+Info: JTAG:   Generation command is [exec D:/intelfpga/17.0/quartus/bin64/perl/bin/perl.exe -I D:/intelfpga/17.0/quartus/bin64/perl/lib -I D:/intelfpga/17.0/quartus/sopc_builder/bin/europa -I D:/intelfpga/17.0/quartus/sopc_builder/bin/perl_lib -I D:/intelfpga/17.0/quartus/sopc_builder/bin -I D:/intelfpga/17.0/quartus/../ip/altera/sopc_builder_ip/common -I D:/intelfpga/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- D:/intelfpga/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=Qsys_LED_JTAG --dir=C:/Users/Verdvana/AppData/Local/Temp/alt7544_2893428032385579365.dir/0117_JTAG_gen/ --quartus_dir=D:/intelfpga/17.0/quartus --verilog --config=C:/Users/Verdvana/AppData/Local/Temp/alt7544_2893428032385579365.dir/0117_JTAG_gen//Qsys_LED_JTAG_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/Verdvana/AppData/Local/Temp/alt7544_2893428032385579365.dir/0117_JTAG_gen/  ]
+Info: JTAG: Done RTL generation for module 'Qsys_LED_JTAG'
+Info: JTAG: "Qsys_LED_inst" instantiated altera_avalon_jtag_uart "JTAG"
+Info: LED: Starting RTL generation for module 'Qsys_LED_LED'
+Info: LED:   Generation command is [exec D:/intelfpga/17.0/quartus/bin64/perl/bin/perl.exe -I D:/intelfpga/17.0/quartus/bin64/perl/lib -I D:/intelfpga/17.0/quartus/sopc_builder/bin/europa -I D:/intelfpga/17.0/quartus/sopc_builder/bin/perl_lib -I D:/intelfpga/17.0/quartus/sopc_builder/bin -I D:/intelfpga/17.0/quartus/../ip/altera/sopc_builder_ip/common -I D:/intelfpga/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- D:/intelfpga/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=Qsys_LED_LED --dir=C:/Users/Verdvana/AppData/Local/Temp/alt7544_2893428032385579365.dir/0118_LED_gen/ --quartus_dir=D:/intelfpga/17.0/quartus --verilog --config=C:/Users/Verdvana/AppData/Local/Temp/alt7544_2893428032385579365.dir/0118_LED_gen//Qsys_LED_LED_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/Verdvana/AppData/Local/Temp/alt7544_2893428032385579365.dir/0118_LED_gen/  ]
+Info: LED: Done RTL generation for module 'Qsys_LED_LED'
+Info: LED: "Qsys_LED_inst" instantiated altera_avalon_pio "LED"
+Info: RAM: Starting RTL generation for module 'Qsys_LED_RAM'
+Info: RAM:   Generation command is [exec D:/intelfpga/17.0/quartus/bin64/perl/bin/perl.exe -I D:/intelfpga/17.0/quartus/bin64/perl/lib -I D:/intelfpga/17.0/quartus/sopc_builder/bin/europa -I D:/intelfpga/17.0/quartus/sopc_builder/bin/perl_lib -I D:/intelfpga/17.0/quartus/sopc_builder/bin -I D:/intelfpga/17.0/quartus/../ip/altera/sopc_builder_ip/common -I D:/intelfpga/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- D:/intelfpga/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=Qsys_LED_RAM --dir=C:/Users/Verdvana/AppData/Local/Temp/alt7544_2893428032385579365.dir/0119_RAM_gen/ --quartus_dir=D:/intelfpga/17.0/quartus --verilog --config=C:/Users/Verdvana/AppData/Local/Temp/alt7544_2893428032385579365.dir/0119_RAM_gen//Qsys_LED_RAM_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/Verdvana/AppData/Local/Temp/alt7544_2893428032385579365.dir/0119_RAM_gen/  ]
+Info: RAM: Done RTL generation for module 'Qsys_LED_RAM'
+Info: RAM: "Qsys_LED_inst" instantiated altera_avalon_onchip_memory2 "RAM"
+Info: ROM: Starting RTL generation for module 'Qsys_LED_ROM'
+Info: ROM:   Generation command is [exec D:/intelfpga/17.0/quartus/bin64/perl/bin/perl.exe -I D:/intelfpga/17.0/quartus/bin64/perl/lib -I D:/intelfpga/17.0/quartus/sopc_builder/bin/europa -I D:/intelfpga/17.0/quartus/sopc_builder/bin/perl_lib -I D:/intelfpga/17.0/quartus/sopc_builder/bin -I D:/intelfpga/17.0/quartus/../ip/altera/sopc_builder_ip/common -I D:/intelfpga/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- D:/intelfpga/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=Qsys_LED_ROM --dir=C:/Users/Verdvana/AppData/Local/Temp/alt7544_2893428032385579365.dir/0120_ROM_gen/ --quartus_dir=D:/intelfpga/17.0/quartus --verilog --config=C:/Users/Verdvana/AppData/Local/Temp/alt7544_2893428032385579365.dir/0120_ROM_gen//Qsys_LED_ROM_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/Verdvana/AppData/Local/Temp/alt7544_2893428032385579365.dir/0120_ROM_gen/  ]
+Info: ROM: Done RTL generation for module 'Qsys_LED_ROM'
+Info: ROM: "Qsys_LED_inst" instantiated altera_avalon_onchip_memory2 "ROM"
+Info: SystemID: "Qsys_LED_inst" instantiated altera_avalon_sysid_qsys "SystemID"
+Info: key: Starting RTL generation for module 'Qsys_LED_key'
+Info: key:   Generation command is [exec D:/intelfpga/17.0/quartus/bin64/perl/bin/perl.exe -I D:/intelfpga/17.0/quartus/bin64/perl/lib -I D:/intelfpga/17.0/quartus/sopc_builder/bin/europa -I D:/intelfpga/17.0/quartus/sopc_builder/bin/perl_lib -I D:/intelfpga/17.0/quartus/sopc_builder/bin -I D:/intelfpga/17.0/quartus/../ip/altera/sopc_builder_ip/common -I D:/intelfpga/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- D:/intelfpga/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=Qsys_LED_key --dir=C:/Users/Verdvana/AppData/Local/Temp/alt7544_2893428032385579365.dir/0122_key_gen/ --quartus_dir=D:/intelfpga/17.0/quartus --verilog --config=C:/Users/Verdvana/AppData/Local/Temp/alt7544_2893428032385579365.dir/0122_key_gen//Qsys_LED_key_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/Verdvana/AppData/Local/Temp/alt7544_2893428032385579365.dir/0122_key_gen/  ]
+Info: key: Done RTL generation for module 'Qsys_LED_key'
+Info: key: "Qsys_LED_inst" instantiated altera_avalon_pio "key"
+Info: nios2: "Qsys_LED_inst" instantiated altera_nios2_gen2 "nios2"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "Qsys_LED_inst" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "Qsys_LED_inst" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "Qsys_LED_inst" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'Qsys_LED_nios2_cpu'
+Info: cpu:   Generation command is [exec D:/intelFPGA/17.0/quartus/bin64//eperlcmd.exe -I D:/intelFPGA/17.0/quartus/bin64//perl/lib -I D:/intelfpga/17.0/quartus/sopc_builder/bin/europa -I D:/intelfpga/17.0/quartus/sopc_builder/bin/perl_lib -I D:/intelfpga/17.0/quartus/sopc_builder/bin -I D:/intelfpga/17.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I D:/intelfpga/17.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I D:/intelfpga/17.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I D:/intelfpga/17.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- D:/intelfpga/17.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=Qsys_LED_nios2_cpu --dir=C:/Users/Verdvana/AppData/Local/Temp/alt7544_2893428032385579365.dir/0125_cpu_gen/ --quartus_bindir=D:/intelFPGA/17.0/quartus/bin64/ --verilog --config=C:/Users/Verdvana/AppData/Local/Temp/alt7544_2893428032385579365.dir/0125_cpu_gen//Qsys_LED_nios2_cpu_processor_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/Verdvana/AppData/Local/Temp/alt7544_2893428032385579365.dir/0125_cpu_gen/  ]
+Info: cpu: # 2018.01.13 21:54:04 (*) Starting Nios II generation
+Info: cpu: # 2018.01.13 21:54:04 (*)   Checking for plaintext license.
+Info: cpu: # 2018.01.13 21:54:05 (*)   Plaintext license not found.
+Info: cpu: # 2018.01.13 21:54:05 (*)   Checking for encrypted license (non-evaluation).
+Info: cpu: # 2018.01.13 21:54:06 (*)   Encrypted license found.  SOF will not be time-limited.
+Info: cpu: # 2018.01.13 21:54:06 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2018.01.13 21:54:06 (*)   Creating all objects for CPU
+Info: cpu: # 2018.01.13 21:54:06 (*)     Testbench
+Info: cpu: # 2018.01.13 21:54:06 (*)     Instruction decoding
+Info: cpu: # 2018.01.13 21:54:06 (*)       Instruction fields
+Info: cpu: # 2018.01.13 21:54:06 (*)       Instruction decodes
+Info: cpu: # 2018.01.13 21:54:07 (*)       Signals for RTL simulation waveforms
+Info: cpu: # 2018.01.13 21:54:07 (*)       Instruction controls
+Info: cpu: # 2018.01.13 21:54:07 (*)     Pipeline frontend
+Info: cpu: # 2018.01.13 21:54:07 (*)     Pipeline backend
+Info: cpu: # 2018.01.13 21:54:10 (*)   Creating 'C:/Users/Verdvana/AppData/Local/Temp/alt7544_2893428032385579365.dir/0125_cpu_gen//Qsys_LED_nios2_cpu_nios2_waves.do'
+Info: cpu: # 2018.01.13 21:54:10 (*)   Generating RTL from CPU objects
+Info: cpu: # 2018.01.13 21:54:12 (*)   Creating encrypted RTL
+Info: cpu: # 2018.01.13 21:54:12 (*)   Creating IP functional simulation model
+Info: cpu: # 2018.01.13 21:54:30 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'Qsys_LED_nios2_cpu'
+Info: cpu: "nios2" instantiated altera_nios2_gen2_unit "cpu"
+Error: Generation stopped, 61 or more modules remaining
+Info: Qsys_LED_tb: Done "Qsys_LED_tb" with 36 modules, 47 files
+Error: qsys-generate failed with exit code 1: 1 Error, 0 Warnings
+Error: There were errors creating the testbench system.
+Info: Stopping: Create testbench Qsys system
